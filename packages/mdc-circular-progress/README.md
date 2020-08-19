@@ -222,13 +222,14 @@ CSS Class | Description
 Mixin | Description
 ----- | ------------
 `color($color)` | Customizes the stroke-color of the indicator. Applies to the determinate variant, and also the indeterminate variant unless the four-color mixin is applied.
+`track-color($color)` | Customizes the track color of the indicator. Applies to the determinate variant only.
 `indeterminate-colors($colors)` | Applies four animated stroke-colors to the indeterminate indicator. Applicable to the indeterminate variant only and overrides any single color currently set. Takes a list of exacty four colors.
 
 ## `MDCCircularProgress` Properties and Methods
 
 Property | Value Type | Description
 -------- | ---------- | --------------
-`determinate` | `boolean` (write-only) | Toggles the component between the determinate and indeterminate state. 
+`determinate` | `boolean` (write-only) | Toggles the component between the determinate and indeterminate state.
 `progress` | `number` (write-only) | Sets the progress bar to this value. Value should be between 0 and 1.
 
 Method Signature | Description |
